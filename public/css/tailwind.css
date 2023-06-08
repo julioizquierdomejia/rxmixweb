@@ -609,6 +609,10 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-48 {
   height: 12rem;
 }
@@ -1110,6 +1114,14 @@ video {
 
   .sm\:mt-20 {
     margin-top: 5rem;
+  }
+
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:hidden {
+    display: none;
   }
 
   .sm\:w-3\/5 {
