@@ -678,6 +678,10 @@ video {
   width: 15rem;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1110,6 +1114,18 @@ video {
 
   .sm\:w-3\/5 {
     width: 60%;
+  }
+
+  .sm\:w-full {
+    width: 100%;
+  }
+
+  .sm\:w-4\/5 {
+    width: 80%;
+  }
+
+  .sm\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .sm\:p-24 {
