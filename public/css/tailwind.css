@@ -722,6 +722,10 @@ video {
   align-items: center;
 }
 
+.justify-items-center {
+  justify-items: center;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -1138,6 +1142,10 @@ video {
 
   .sm\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .sm\:justify-items-center {
+    justify-items: center;
   }
 
   .sm\:p-24 {
