@@ -742,12 +742,28 @@ video {
   border-radius: 0.5rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
 .border-l-4 {
   border-left-width: 4px;
 }
 
 .border-l-2 {
   border-left-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
 }
 
 .border-indigo-500 {
